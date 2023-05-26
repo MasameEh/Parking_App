@@ -1,16 +1,15 @@
-# dbproject
-
+# BemyGuide
+This repository contains the code for a parking app built using Flutter for the frontend and FastAPI with a SQL database for the backend.
 A new Flutter project.
 
-## Getting Started
+# Features
+User Registration: Users can sign up for an account by providing their details such as name, email, and password.
 
-This project is a starting point for a Flutter application.
+User Login: Registered users can log in to their accounts using their email and password.
 
-A few resources to get you started if this is your first Flutter project:
+Parking Spot Booking: Users can book a parking spot by selecting a duration and time slot. Once booked, the spot will be marked as occupied and unavailable for other users.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Payment Integration: Users can make payments for their parking bookings through the app. The app will support various payment methods such as credit/debit cards or digital wallets.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Booking History: Users can view their booking history, including past and upcoming bookings. They can also cancel bookings if needed.
+
