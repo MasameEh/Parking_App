@@ -7,8 +7,6 @@ User Registration: Users can sign up for an account by providing their details s
 
 User Login: Registered users can log in to their accounts using their email and password.
 
-There are multiple customers and multiple parking lots.
-
 A customer can make a reservation in any of the parking lots.
 
 Whenever a reservation is created, its state becomes pending.
