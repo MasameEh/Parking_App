@@ -4,14 +4,20 @@ A new Flutter project.
 
 # Features
 User Registration: Users can sign up for an account by providing their details such as name, email, and password.
-
 User Login: Registered users can log in to their accounts using their email and password.
-
-Parking Spot Booking: Users can book a parking spot by selecting a duration and time slot. Once booked, the spot will be marked as occupied and unavailable for other users.
-
-Payment Integration: Users can make payments for their parking bookings through the app. The app will support various payment methods such as credit/debit cards or digital wallets.
-
-Booking History: Users can view their booking history, including past and upcoming bookings. They can also cancel bookings if needed.
+There are multiple customers and multiple parking lots.
+A customer can make a reservation in any of the parking lots.
+Whenever a reservation is created, its state becomes pending.
+The parking lot manager must activate the reservation to make it active.
+A customer may not have more than one pending reservation. If a
+customer wants to make another reservation while having one pending
+reservation, they must first cancel the existing reservation (only possible
+while the reservation is pending).
+Each parking lot has an allowance time in minutes, which is the
+maximum time a customer can be late before their reservation
+becomes eligible for cancellation by the manager.
+A parking lot manager can cancel a reservation only if it's pending and
+the allowance time has passed.
 
 # Backend
 https://github.com/Muhammad-Abdelsattar/parking-lots-management-system
