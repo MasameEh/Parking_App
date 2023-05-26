@@ -1,6 +1,5 @@
 # BemyGuide
-This repository contains the code for a parking app built using Flutter for the frontend and FastAPI with a SQL database for the backend.
-A new Flutter project.
+It's a parking app built using Flutter for the frontend and FastAPI with a SQL database for the backend.
 
 # Features
 User Registration: Users can sign up for an account by providing their details such as name, email, and password.
