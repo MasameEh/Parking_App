@@ -1,4 +1,4 @@
-# BemyGuide
+# Parking
 It's a parking app built using Flutter for the frontend and FastAPI with a SQL database for the backend.
 
 # Features
